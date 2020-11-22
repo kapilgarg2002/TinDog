@@ -1,0 +1,150 @@
+body {
+  font-family: "montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.b-heading {
+  font-size: 3rem;
+}
+.c-heading {
+  font-family: "montserrat";
+  font-size: 3.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+/* title */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 5%;
+  padding: 0%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav-item {
+  padding: 10%;
+  font-size: 1.25rem;
+}
+.navbar-nav {
+  margin-left: 50%;
+}
+.download-btn {
+  line-height: 1rem;
+  margin: 5% 3% 3% 0%;
+}
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* features */
+
+#features {
+  padding: 7% 15% 0%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.faws {
+  font-size: 5rem;
+  margin-bottom: 25px;
+  color: #ef8172;
+}
+
+.faws:hover {
+  color: #ff4c68;
+}
+
+.feat {
+  font-family: "montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* testimonials */
+
+.dogimgtes {
+  margin: 20px;
+  border-radius: 100%;
+  width: 10%;
+}
+
+/* press */
+
+#press {
+  padding: 0% 7% 7% 7%;
+}
+
+.press-img {
+  width: 15%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  padding: 2% 3%;
+}
+
+.signup {
+  width: 75%;
+}
+
+/* cta */
+
+/* footer */
+
+.socio {
+  color: black;
+  font-size: 1rem;
+}
+.ic {
+  padding: 0% 0.75rem;
+}
