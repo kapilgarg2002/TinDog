@@ -133,6 +133,11 @@ p {
   padding: 2% 3%;
 }
 
+.card-body
+{
+  height: 290px;
+}
+
 .signup {
   width: 75%;
 }
